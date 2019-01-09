@@ -1,0 +1,268 @@
+{
+  "done": [
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-15T02:56:59.318Z",
+      "description": {
+        "content": "- [x] 用工具生成更新日志",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "使用standard-version 生成changelog.md\n\n- [x] release  发布patch版本\n- [x] minorRelease  发布minor版本\n- [x] majorRelease  发布major版本",
+        "mime": "text/markdown"
+      },
+      "id": "9",
+      "references": [],
+      "title": "Changelog"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-15T06:09:16.114Z",
+      "description": {
+        "content": "- [x] 使用docker 构建生产环境内容\n- [x] 使用docker-compose定义和运行多个image\n- [x] 使用docker-swarm进行容器部署编排",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "使用docker部署，省事省心",
+        "mime": "text/markdown"
+      },
+      "id": "12",
+      "references": [],
+      "title": "Docker部署"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Auto",
+      "creation_time": "2018-10-13T04:11:49.867Z",
+      "description": {
+        "content": "- [x] 1.git commit 提交写注释后对src目录中的代码进行检查\n- [x] 2.git push 对代码进行检查",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "git commit 提交写注释后对src目录中的代码进行检查\ngit push 对代码进行检查\n\n代码检查主要包含接口、变量等",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Git提交TypeScript代码约束"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-11-07T04:49:05.415Z",
+      "description": {
+        "content": "实现antd中关于国际化的配置",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [x] 实现antd中关于国际化的配置",
+        "mime": "text/markdown"
+      },
+      "id": "17",
+      "references": [],
+      "title": "i18n"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "TDD",
+      "creation_time": "2018-10-13T03:08:12.441Z",
+      "description": {
+        "content": "- [x] 加入jest对组件进行测试",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [x] 加入jest对组件进行测试",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "jest测试"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Auto",
+      "creation_time": "2018-10-13T04:12:29.057Z",
+      "description": {
+        "content": "- [x] 集成Less",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Less集成"
+    },
+    {
+      "assignedTo": {
+        "name": "易海门"
+      },
+      "creation_time": "2018-10-15T03:11:22.567Z",
+      "description": {
+        "content": "集成ServiceWorker 优化前端加载及显示效率",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [x] HTTPS整合，已和张帆帆确认可以实现证书的内外网部署\n- [x] 整合ServiceWorker\n- [x] 缓存全部文件并进行缓存优化\n\n",
+        "mime": "text/markdown"
+      },
+      "id": "10",
+      "references": [],
+      "title": "PWA"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-17T05:12:53.982Z",
+      "description": {
+        "content": "对子路由进行重构并优化",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [] 在现有基础上加入子路由功能\n- [] Demo",
+        "mime": "text/markdown"
+      },
+      "id": "14",
+      "references": [],
+      "title": "React Router 设计方案"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "TDD",
+      "creation_time": "2018-10-13T03:04:02.224Z",
+      "description": {
+        "content": "- [x] 1.学习TDD测试\n- [x] 2.步道TDD测试\n- [x] 3.工程化测试",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "1.初步完成jest和enzyme的集成\n2.对组件进行测试",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "TDD测试用法及步道"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-15T06:06:13.739Z",
+      "description": {
+        "content": "- [x] 使用Caddy作为web Server\n- [] 生产环境使用后台API",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "移除nginx镜像，使用配置更简单的Caddy作为服务器",
+        "mime": "text/markdown"
+      },
+      "id": "11",
+      "references": [],
+      "title": "WebServer"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-17T06:54:27.270Z",
+      "description": {
+        "content": "保存时自动格式化ts错误",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [x] Ctrl+s时，vscode自动修复ts约束的错误",
+        "mime": "text/markdown"
+      },
+      "id": "15",
+      "references": [],
+      "title": "格式化"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Auto",
+      "creation_time": "2018-10-13T04:15:29.921Z",
+      "description": {
+        "content": "* [x] 1. js兼容性处理\n* [x] 2. css兼容性处理\n* [x] GIT",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "使用@babel/polyfill对js进行兼容性处理\n使用postcss 插件autoprefixer进行css兼容性处理",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "浏览器兼容性问题"
+    },
+    {
+      "assignedTo": {
+        "name": "杜秀秀"
+      },
+      "category": "Tools",
+      "creation_time": "2018-10-13T04:06:08.955Z",
+      "description": {
+        "content": "- [] 将项目整合为类[Create React App](https://www.npmjs.com/package/create-react-app)的脚手架",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "将项目整合为类[Create React App](https://www.npmjs.com/package/create-react-app)的脚手架",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "脚手架"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "TDD",
+      "creation_time": "2018-10-13T04:03:55.963Z",
+      "description": {
+        "content": "- [x] 代码覆盖率测试",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "覆盖率测试"
+    },
+    {
+      "assignedTo": {
+        "name": "guzhongren"
+      },
+      "category": "Project",
+      "creation_time": "2018-10-22T01:28:17.126Z",
+      "description": {
+        "content": "加入axios请求进度条，优化用户体验",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- [x] 加入[axios-progress-bar](https://www.npmjs.com/package/axios-progress-bar)",
+        "mime": "text/markdown"
+      },
+      "id": "16",
+      "references": [],
+      "title": "请求进度条"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "todo": []
+}

@@ -1,0 +1,38 @@
+@import '../../../../theme/theme.less';
+._gisBaseToolNoneTip{
+  margin: 0px 2px;
+  width: 20px;
+  height: 20px;
+}
+.toolbarItem_layer{
+  display: flex;
+  width: auto;
+  height: 4*@margin; // 当前margin为8px
+  margin: 0px 12px;// 为保证元素间间距为24px
+  transition: all @transition-duration;
+  color: @theme-font-color1;
+  cursor: pointer;
+
+  .toolbarImg_layer{
+    display: inline-block;
+    width: 4*@margin; // 当前margin为8px
+    height: 4*@margin; // 当前margin为8px
+  }
+  .toolbarIcon_layer{
+    display: inline-block;
+    width: 4*@margin; // 当前margin为8px
+    height: 4*@margin; // 当前margin为8px
+    margin-right: @margin; // 当前margin为8px
+  }
+  .toolbarTitle_layer{
+    display: inline-block;
+    height: 4*@margin; // 当前margin为8px
+    line-height: 4*@margin; // 当前margin为8px
+    padding-right: 12px;
+  }
+
+
+}
+.toolbarContainer{
+  border-right: dashed 1px #e1e9f0;
+}

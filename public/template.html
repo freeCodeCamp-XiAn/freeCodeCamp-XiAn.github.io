@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='author' content="谷中仁">
+  <meta name='description' content="FCC西安社区官网">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#000000"/>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <script src='./config.js'></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(registration => {
+          console.log('ServiceWorker registration successful with scope: ',
+            registration.scope
+          )
+        })
+        .catch(err => {
+          console.log('ServiceWorker registration failed: ', err)
+        })
+    }
+  </script>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+</body>
+
+</html>

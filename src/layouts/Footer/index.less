@@ -1,0 +1,20 @@
+.redHeart {
+  color: red;
+  size: 30px
+}
+.footer-barrier{
+  padding-top: 5px;
+  animation: footer-barries-animation 4s linear infinite;
+  background-image: linear-gradient(90deg, #29bfff, #a231ff, #0deccd, #29bfff);
+  background-repeat: repeat-x;
+  background-size: 100vw 4px;
+}
+
+@keyframes footer-barries-animation {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100vw;
+  }
+}

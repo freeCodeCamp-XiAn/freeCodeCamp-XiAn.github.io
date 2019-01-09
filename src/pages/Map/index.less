@@ -1,0 +1,119 @@
+// @author 谷中仁
+@import '../../theme/theme.less';
+.MapInstance {
+    height: calc(100% - 0px); // height: 100%;
+}
+
+.maptalksContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scaleControl {
+    bottom: 80px;
+}
+
+// gis工具条
+.gisToolBar {
+    position: fixed;
+    top: @margin;
+    right: @margin; // border-radius: @theme-border-radius @theme-border-radius @theme-border-radius 0px;
+    // border-radius: @theme-border-radius;
+    background-color: @theme-app-background-color;
+    box-shadow: @box-shadow-base;
+    padding: 10px 0px !important; // 该padding与DraggableContainer中的padding冲突
+    .strong-inlineBlock {
+        display: inline-block;
+        width: 5px;
+        height: 30px;
+        cursor: move;
+        color: @theme-app-background-color;
+    }
+}
+
+.layerContainerVisible {
+    border-radius: @theme-border-radius @theme-border-radius @theme-border-radius 0px;
+}
+
+.layerContainerUnVisible {
+    border-radius: @theme-border-radius;
+}
+
+// gis功能按钮-全图
+.fullContainer {
+    border-radius: 8px;
+    position: fixed;
+    bottom: 25*@margin;
+    right: @margin;
+    display: inline-block;
+    background-color: @theme-app-background-color;
+    box-shadow: @box-shadow-base;
+}
+
+/* gis功能按钮-放大*/
+
+.zoomInContainer {
+    border-radius: 8px;
+    position: fixed;
+    bottom: 18*@margin;
+    ;
+    right: @margin;
+    display: inline-block;
+    background-color: @theme-app-background-color; // border-radius: @theme-border-radius;
+    box-shadow: @box-shadow-base;
+}
+
+/* gis功能按钮-缩小*/
+
+.zoomOutContainer {
+    border-radius: 8px;
+    position: fixed;
+    bottom: 11*@margin;
+    right: @margin;
+    display: inline-block;
+    background-color: @theme-app-background-color; // border-radius: @theme-border-radius;
+    box-shadow: @box-shadow-base;
+}
+
+.mapDirectTool {
+    position: fixed;
+    bottom: 95px;
+    right: 13px;
+}
+
+.zoom {
+    position: fixed;
+    bottom: 55px;
+    right: 30px;
+}
+
+// .gisTools_full{
+//   position: fixed;
+//   bottom: 250px;
+//   right: 10px;
+// }
+// 图层控制窗口
+.layerWindow {
+    position: fixed;
+    top: 60px;
+    right: @margin;
+}
+
+.userMenu {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.MapNavHeader {
+    position: absolute;
+    top: @margin+ 5px;
+    right: @margin + 100px;
+}
+
+.baseMapSwitcher {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}

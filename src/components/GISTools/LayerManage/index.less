@@ -1,0 +1,53 @@
+@import '../../../theme/theme.less';
+
+// @Width: 264px; // 设置默认参数
+
+._layerManager {
+  background-color: @theme-app-background-color;
+
+  
+  .ant-tree-node-content-wrapper {
+    padding: 0 8px!important;
+  }
+  .ant-tree-switcher-icon{
+    font-size: 24px!important;
+  }
+
+
+
+  // padding-left: 7px;
+  ._layerTree {
+    position: fixed;
+    top:6 * @margin + 4px; // 图层控制所在整个块的高度加1px
+    left:0px; 
+    border-top: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 2px 8px rgba(0,0,0,.15) inset;
+    padding-left: 21px;
+  }
+}
+._layerManagerImgUp{
+  background-image: url('./img/tool.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+._layerManagerImgUp:hover{
+  background-position: -32px 0px;
+}
+._layerManagerImgDown{
+  background-image: url('./img/tool.png');
+  background-repeat: no-repeat;
+  background-position: 0px -32px;
+}
+._layerManagerImgDown:hover{
+  background-position: -32px -32px;
+}
+
+._layerManagerImgIcon{
+  background-image: url('./img/tool.png');
+  background-repeat: no-repeat;
+  background-position: 0px -64px;
+  // transition: all @transition-duration;
+}
+._layerManagerImgIcon:hover{
+  background-position: -32px -64px;
+}

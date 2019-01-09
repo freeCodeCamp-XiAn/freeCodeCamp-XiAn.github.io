@@ -1,0 +1,14 @@
+0.0.0.0:80
+root /www
+gzip
+log stdout
+errors stdout
+
+/apiServer {
+  gzip
+  proxy / http://api.server.com/api {
+    proxy_header Host {host}
+    proxy_header X-Real-IP {remote}
+    proxy_header X-Forwarded-Proto {scheme}
+  }
+}

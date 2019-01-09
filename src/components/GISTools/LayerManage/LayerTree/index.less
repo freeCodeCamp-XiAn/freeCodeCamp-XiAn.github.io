@@ -1,0 +1,19 @@
+
+@import '../../../../theme/theme.less';
+
+.treeContainer {
+  display: inline-block;
+  border-radius: 0px 0px 8px 8px ;
+  box-shadow: @theme-box-shadow;
+  padding-left: 27px; // 为保证图层控制内容与图层控制按钮内容对齐
+}
+.unVisibleTreeContainer{
+  display: none;
+  background-color: @front-color;
+  border-radius: 0px 0px 8px 8px ;
+  box-shadow: @theme-box-shadow;
+}
+// 重写了ant-tree的内外边距
+.ant-tree li span.ant-tree-checkbox{
+  margin: 4px 8px 8px 12px !important;
+}

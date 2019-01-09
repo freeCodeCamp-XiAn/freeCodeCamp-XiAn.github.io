@@ -1,0 +1,6 @@
+{
+  "kanban": {
+      "openOnStartup": true,
+      "trackTime": true
+  }
+}

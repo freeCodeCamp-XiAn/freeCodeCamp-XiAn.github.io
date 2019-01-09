@@ -1,0 +1,36 @@
+@import '../../../theme/theme.less';
+
+.userMenuContainer{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  &:hover {
+    .userLogo {
+      cursor: pointer;
+      background: radial-gradient(@primary-color, @primary-color); /* 标准的语法 */
+    }
+    .userStatus{
+      display: inline;
+    }
+  }
+  .userLogo{
+    border-radius: 50%;
+    width:58px;
+    height: 58px;
+    img {
+      text-align: center;
+    }
+  }
+  .userStatus{
+    display: none;
+    margin-top:5px;
+    text-align: center;
+    color: @theme-font-color1;
+    background-color: @theme-input-background-color;
+    transition: all @transition-duration;
+    button {
+      width:58px;
+    }
+  }
+  
+}
