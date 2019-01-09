@@ -30,7 +30,7 @@ $ git clone -b dev git@github.com:freeCodeCamp-XiAn/freeCodeCamp-XiAn.github.io.
 
 ```shell
 # use yarn
-$ cd fcc.xian && yarn
+$ cd freeCodeCamp-XiAn.github.io && yarn
 ```
 
 ## 启动
