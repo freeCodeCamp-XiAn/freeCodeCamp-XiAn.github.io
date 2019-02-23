@@ -8,7 +8,7 @@ interface IProps {
     style?: object,
     children?: React.ReactNode
 }
-
+// 函数式继承
 const Button1 = (props: IProps) => (
     <button className={props.className} type={props.type} style={props.style} onClick={props.onClick} >
     {props.children}
