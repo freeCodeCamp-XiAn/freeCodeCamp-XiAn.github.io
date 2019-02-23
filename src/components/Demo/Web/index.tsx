@@ -92,7 +92,7 @@ export default class Web extends React.Component<IProps, IState> {
             </Button>
           </Upload>
         </div>
-        
+
         <div>
           <label>测试多文件上传</label>
         </div>
