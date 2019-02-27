@@ -1,9 +1,9 @@
 .banner {
-  background-color: #000;
-  /*这里无法改变html字体大小*/
-  height: 750rem;
+  background-image: url(img/banner.jpg);
   text-align: center;
   position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .banner h2,
