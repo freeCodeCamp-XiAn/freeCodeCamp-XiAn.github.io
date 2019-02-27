@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './index.less'
 import Config from '@config/index'
-import { Header, Footer } from '@layouts/index'
+import { Footer, Banner } from '@layouts/index'
 
 interface IState {
   hasMapLoaded?: boolean
@@ -17,7 +17,7 @@ export default class Index extends React.Component<any, IState> {
   render() {
     return (
       <React.Fragment>
-        <Header />
+        <Banner />
         {Config.projectName}
         <Footer />
       </React.Fragment>
