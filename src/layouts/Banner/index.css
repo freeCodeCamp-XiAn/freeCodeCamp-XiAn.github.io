@@ -1,0 +1,14 @@
+.banner {
+  /* 375指iphone6的宽度,这里指定字体大小均为16px */
+  background-image: url(img/banner.jpg);
+  width: 31.25025rem;
+  height: 13.889rem;
+  text-align: center;
+  position: relative;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.banner h2,
+.banner h3 {
+  color: #fff;
+}
