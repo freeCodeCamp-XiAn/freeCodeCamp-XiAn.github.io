@@ -5,9 +5,9 @@ const Config = {
     loadingText: '别急,努力加载ing'
   },
   banner: {
-    bannerTitle: '2019西安web交流大会',
-    bannerDate: '2019-03-30 10:00 ~ 17:00',
-    bannerPlace: '西安市聘林区南二环西段69号，西安创新设计中心大楼三楼'
+    title: '2019西安web交流大会',
+    date: '2019-03-30 10:00 ~ 17:00',
+	address: '西安市碑林区南二环西段69号，西安创新设计中心大楼三楼'
   },
   // 底图
   baseMapLayers: {
