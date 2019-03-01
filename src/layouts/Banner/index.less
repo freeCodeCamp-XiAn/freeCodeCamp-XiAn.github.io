@@ -1,14 +1,24 @@
 @import '../../theme/theme.less';
 .banner {
+	height: 100vmin;
 	background-image: url(./img/banner.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 750rem;
-	text-align: center;
-	position: relative;
-	overflow: hidden;
-	h2 {
-		font-size: 4rem;
-		color: @front-color;
+	color: @front-color;
+
+	div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 10rem;
+		.title{
+			font-size: 5rem;
+		}
+		.date{
+			font-size: 1rem;
+			margin-top: 10rem;
+		}
+
 	}
 }

@@ -1,141 +1,56 @@
-@import '~antd/dist/antd.less';
 @import './theme/theme.less';
 
-@font-face {
-	font-family: 'anticon';
-	font-display: fallback;
-	src: url('./assets/font/font_148784_v4ggb6wrjmkotj4i.eot');
-	/* IE9*/
-	src: url('./assets/font/font_148784_v4ggb6wrjmkotj4i.eot?#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('./assets/font/font_148784_v4ggb6wrjmkotj4i.woff') format('woff'),
-		/* chrome、firefox */
-		url('./assets/font/font_148784_v4ggb6wrjmkotj4i.ttf') format('truetype'),
-		/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-		url('./assets/font/font_148784_v4ggb6wrjmkotj4i.svg#iconfont') format('svg');
-	/* iOS 4.1- */
-}
-
-@font-face {
-	font-family: "iconfont";
-	font-display: fallback;
-	src: url('./assets/font/iconfont.eot');
-	/* IE9*/
-	src: url('./assets/font/iconfont.eot#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('./assets/font/iconfont.woff') format('woff'),
-		/* chrome, firefox */
-		url('./assets/font/iconfont.ttf') format('truetype'),
-		/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-		url('./assets/font/iconfont.svg#iconfont') format('svg');
-	/* iOS 4.1- */
-}
-
-.fontAli {
-	font-family: "iconfont" !important;
-	font-size: 16px;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-stroke-width: 0.2px;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.anticon {
-	font-family: "anticon" !important;
-	font-size: 16px;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-stroke-width: 0.2px;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-/*
-  // ::-webkit-scrollbar // 整个滚动条
-  // ::-webkit-scrollbar-button // 滚动条上的按钮 (上下箭头)
-  // ::-webkit-scrollbar-track-piece // 滚动条没有滑块的轨道部分
-  // ::-webkit-scrollbar-corner // 当同时有垂直滚动条和水平滚动条时交汇的部分
-  // ::-webkit-resizer // 某些元素的corner部分的部分样式
-  // ::-webkit-scrollbar-track // 滚动条轨道
-  // ::-webkit-scrollbar-thumb // 滚动条上的滚动滑块
-*/
 *::-webkit-scrollbar {
-	width: 8px;
+    width: 8px;
 }
 
 *::-webkit-scrollbar-thumb {
-	border-radius: 4px;
-	background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-
-// // //自定义滚动条样式
-// /* 这是针对缺省样式 (必须的) */
-
-// .scroll-1::-webkit-scrollbar {
-//   width: 5px;
-//   height: 5px;
-//   background-color: #F5F5F5;
-// }
-
-// /* 滚动条的滑轨背景颜色 */
-
-// .scroll-1::-webkit-scrollbar-track {
-//   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-//   background-color: #f1f1f1;
-//   border-radius: 10px;
-// }
-
-// /* 滑块颜色 */
-
-// .scroll-1::-webkit-scrollbar-thumb {
-//   border-radius: 10px;
-//   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #008cee), // c1c1c1
-//   color-stop(0.72, #008cee), color-stop(0.86, #008cee));
-// }
-
-// @import 'antd/dist/antd.css';
 html,
 body,
 #root {
-	margin: 0;
-	padding: 0;
-	font-family: Microsoft Yahei !important;
-	font-variant-numeric: tabular-nums;
-	width: 100%;
-	height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft Yahei !important;
+    font-variant-numeric: tabular-nums;
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (min-width:250px) {
-	html {
-		font-size: percentage(5 / 10px);
-	}
+    html {
+        font-size: 5px;
+    }
 }
 
 @media screen and (min-width:480px) {
-	html {
-		font-size: percentage(10 / 10px);
-	}
+    html {
+        font-size: 8px;
+    }
 }
 
 @media screen and (min-width:768px) {
-	html {
-		font-size: percentage(14 / 10px);
-	}
+    html {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width:960px) {
-	html {
-		font-size: percentage(16 / 10px);
-	}
+    html {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width:1200px) {
-	html {
-		font-size: percentage(18 / 10px);
-	}
+    html {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width:1330px) {
-	html {
-		font-size: percentage(20 / 10px);
-	}
+    html {
+        font-size: 20px;
+    }
 }
