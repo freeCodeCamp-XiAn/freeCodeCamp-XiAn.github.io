@@ -1,10 +1,12 @@
 .banner {
   background-image: url(img/banner.jpg);
-  text-align: center;
-  position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
-  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
 }
 .banner h2,
 .banner h3 {
