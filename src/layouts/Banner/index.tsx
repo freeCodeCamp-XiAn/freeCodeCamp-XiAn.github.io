@@ -16,15 +16,12 @@ const styleBaner: IStyle = {
     'height': bannerLess(750) + 'px'
 }
 const styleH2: IStyle = {
-    'marginTop': bannerLess(242) + 'px',
     'fontSize': bannerLess(107) + 'px',
 }
 const styleH3: IStyle = {
-    'marginTop': bannerLess(87) + 'px',
     'fontSize': bannerLess(41) + 'px',
 }
 const styleH4: IStyle = {
-    'marginTop': bannerLess(43) + 'px',
     'fontSize': bannerLess(41) + 'px',
 }
 
