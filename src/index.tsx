@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import 'normalize.css/normalize.css'
+// import 'normalize.css/normalize.css'
 // import Layouts from '@layouts/index'
 import Pages from '@pages/index'
 import { LocaleProvider } from 'antd'
