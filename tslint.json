@@ -13,7 +13,7 @@
 	  //   "options": [
 	  //     120
 	  //   ]
-	  // },
+		// },
 	  "semicolon": [true, "never"],
 	  "quotemark": [true, "single", "avoid-escape"],
 	  "new-parens": true,
