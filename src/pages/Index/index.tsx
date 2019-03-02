@@ -26,10 +26,10 @@ export default class Index extends React.Component<any, IState> {
 		const Agents = ['Android', 'iPhone',
 			'SymbianOS', 'Windows Phone',
 			'iPad', 'iPod']
-		let flag = true
+		let flag =false
 		for (const agent of Agents) {
 			if (userAgentInfo.indexOf(agent) > 0) {
-				flag = false
+				flag = true
 				break
 			}
 		}
