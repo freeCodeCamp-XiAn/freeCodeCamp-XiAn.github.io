@@ -6,6 +6,10 @@ interface IProps {
 }
 export default (props: IProps) => {
 	return (
-		<div className='partTitle'>{props.title}</div>
+		<div className='partTitle'>
+			<div className='line'/>
+			<div className='title'>{props.title}</div>
+			<div  className='line' />
+		</div>
 	)
 }

@@ -2,38 +2,65 @@
 
 .partTitle {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	color: @front-color;
-	padding: 2rem;
+
+	.line {
+		border: 1px solid @front-color;
+		flex-grow: 1;
+	}
+
+	.title {
+		color: @front-color;
+	}
 }
 
 @media screen and (min-width:250px) {
 	.partTitle {
-		font-size: 1.5rem;
+		padding: 1rem 1rem;
+
+		.title {
+			font-size: 1.5rem;
+		}
 	}
 }
 
 @media screen and (min-width:480px) {
 	.partTitle {
-		font-size: 1.8rem;
+		padding: 2rem 3rem;
+
+		.title {
+			font-size: 3rem;
+		}
 	}
 }
 
 @media screen and (min-width:768px) {
 	.partTitle {
-		font-size: 2rem;
+		padding: 1rem 5rem;
+
+		.title {
+			font-size: 2.8rem;
+		}
 	}
 }
 
 @media screen and (min-width:960px) {
 	.partTitle {
-		font-size: 2.3rem;
+		padding: 2rem 10rem;
+
+		.title {
+			font-size: 2.3rem;
+		}
 	}
 }
 
 @media screen and (min-width:1200px) {
 	.partTitle {
-		font-size: 2.5rem;
+		padding: 2rem 15rem;
+
+		.title {
+			font-size: 2.5rem;
+		}
 	}
 }
