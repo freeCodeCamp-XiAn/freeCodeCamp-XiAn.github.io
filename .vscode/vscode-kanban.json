@@ -270,20 +270,8 @@
         "name": "吴昊昊"
       },
       "creation_time": "2019-02-23T06:59:54.357Z",
-      "description": {
-        "content": "重构，更改configAPI\n",
-        "mime": "text/markdown"
-      },
       "id": "18",
       "references": [],
-      "tag": {
-        "time-tracking": {
-          "entries": [
-            "2019-03-01T16:56:36.044Z"
-          ],
-          "seconds": 0
-        }
-      },
       "title": "Banner"
     },
     {
