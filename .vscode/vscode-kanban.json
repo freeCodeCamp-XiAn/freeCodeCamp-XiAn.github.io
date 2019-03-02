@@ -38,6 +38,15 @@
     },
     {
       "assignedTo": {
+        "name": "谷中仁"
+      },
+      "creation_time": "2019-02-23T07:13:15.306Z",
+      "id": "28",
+      "references": [],
+      "title": "Footer"
+    },
+    {
+      "assignedTo": {
         "name": "guzhongren"
       },
       "category": "Auto",
@@ -260,11 +269,7 @@
       "id": "16",
       "references": [],
       "title": "请求进度条"
-    }
-  ],
-  "in-progress": [],
-  "testing": [],
-  "todo": [
+    },
     {
       "assignedTo": {
         "name": "吴昊昊"
@@ -273,16 +278,11 @@
       "id": "18",
       "references": [],
       "title": "Banner"
-    },
-    {
-      "assignedTo": {
-        "name": "谷中仁"
-      },
-      "creation_time": "2019-02-23T07:13:15.306Z",
-      "id": "28",
-      "references": [],
-      "title": "Footer"
-    },
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "todo": [
     {
       "assignedTo": {
         "name": "刘江波"
