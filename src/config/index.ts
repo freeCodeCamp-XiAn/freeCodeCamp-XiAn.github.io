@@ -35,7 +35,30 @@ const Config = {
 		  description: '从上面的代码可以看到将HTML直接嵌入了JS代码里面，这个就是React提出的一种JSX语法，这应该是最开始接触React最不能接受的设定之一，因为前端被"变现和逻辑层分离"这种思想"洗脑"太久了。但实际上组件的HTML是组成一个组件不可分割的一份，能够将HTML封装起来才是组件的完全体，React发明了JSX让JS支持嵌入...',
 		  isImgLeft: true
 	  }
-  ]
+  ],
+  partner: {
+			name: 'partner',
+			data: [
+				{ name: 'partner1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+				{ name: 'partner1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 1 },
+				{ name: 'partner1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 }
+			]
+		},
+  volunteer: {
+		name: 'volunteer',
+		data: [
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 1 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 },
+			{ name: 'volunteer1', url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg', active: 0 }
+		]
+	},
 }
 
 if (typeof ConfigExt !== 'undefined') {
