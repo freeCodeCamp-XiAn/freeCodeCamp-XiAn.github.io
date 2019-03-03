@@ -3,6 +3,7 @@ import './index.less'
 import { Footer, Banner } from '@layouts/index'
 import IndexContent from '@components/IndexContent'
 import Title from '@components/Title'
+import CorporateSponsor from '@components/CorporateSponsor'
 import Bottom from '@components/Bottom'
 interface IState {
 	isPhone?: boolean
@@ -59,6 +60,8 @@ export default class Index extends React.Component<any, IState> {
 			<React.Fragment>
 				<Banner />
 				<Title title={'大会精彩内容'}/>
+				{this.state.isFinished && <IndexContent isPhone={this.state.isPhone} />}
+				<CorporateSponsor />
         {this.state.isFinished && <IndexContent isPhone={this.state.isPhone} />}
         <Bottom />
 				<Footer />
