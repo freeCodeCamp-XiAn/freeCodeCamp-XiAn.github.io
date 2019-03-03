@@ -1,20 +1,25 @@
-.redHeart {
-  color: red;
-  size: 30px
-}
-.footer-barrier{
-  padding-top: 5px;
-  animation: footer-barries-animation 4s linear infinite;
-  background-image: linear-gradient(90deg, #29bfff, #a231ff, #0deccd, #29bfff);
-  background-repeat: repeat-x;
-  background-size: 100vw 4px;
-}
+@import '../../theme/theme.less';
+.footer {
+	color: @front-color;
+	padding: 20px;
+	a{
+		color: @front-color;
+		text-decoration: none;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	.func{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 100px;
+	}
+	.right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
 
-@keyframes footer-barries-animation {
-  0% {
-    background-position-x: 0;
-  }
-  100% {
-    background-position-x: 100vw;
-  }
+	}
 }

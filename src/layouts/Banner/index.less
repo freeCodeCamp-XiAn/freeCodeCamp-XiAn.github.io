@@ -3,12 +3,50 @@
 	background-image: url(./img/banner.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 750rem;
-	text-align: center;
-	position: relative;
-	overflow: hidden;
-	h2 {
-		font-size: 4rem;
-		color: @front-color;
+	color: @front-color;
+
+	div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 10rem;
+		.title{
+			font-size: 5rem;
+		}
+		.date{
+			font-size: 1rem;
+			margin-top: 10rem;
+		}
+	}
+}
+
+@media screen and (min-width:250px) {
+	.banner {
+		height: 230px;
+	}
+}
+
+@media screen and (min-width:480px) {
+	.banner {
+		height: 300px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.banner {
+		height: 500px;
+	}
+}
+
+@media screen and (min-width:960px) {
+	.banner {
+		height: 550px;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.banner {
+		height: 100vmin;
 	}
 }
