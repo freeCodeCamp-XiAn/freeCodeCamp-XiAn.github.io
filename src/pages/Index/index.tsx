@@ -1,8 +1,8 @@
 import * as React from 'react'
 import './index.less'
-import Config from '@config/index'
 import { Footer, Banner } from '@layouts/index'
 import IndexContent from '@components/IndexContent'
+import Title from '@components/Title'
 interface IState {
 	isPhone?: boolean
 	isFinished?: boolean
@@ -26,7 +26,7 @@ export default class Index extends React.Component<any, IState> {
 		const Agents = ['Android', 'iPhone',
 			'SymbianOS', 'Windows Phone',
 			'iPad', 'iPod']
-		let flag =false
+		let flag = false
 		for (const agent of Agents) {
 			if (userAgentInfo.indexOf(agent) > 0) {
 				flag = true
@@ -57,8 +57,8 @@ export default class Index extends React.Component<any, IState> {
 		return (
 			<React.Fragment>
 				<Banner />
+				<Title title={'大会精彩内容'}/>
 				{this.state.isFinished && <IndexContent isPhone={this.state.isPhone} />}
-				{Config.projectName}
 				<Footer />
 			</React.Fragment>
 		)
