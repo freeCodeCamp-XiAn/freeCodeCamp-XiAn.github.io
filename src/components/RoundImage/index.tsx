@@ -29,6 +29,7 @@ export default class RoundImage extends React.Component<IProps, IState> {
                         className={`${this.state.type}-img ${this.state.active === 1 ? 'active' : ''}`}
 						src={this.props.url}
 						alt={this.props.name}
+						style={{ margin: '1.25rem auto', borderRadius: '50%' }}
 					/>
 			</React.Fragment>
 		)
