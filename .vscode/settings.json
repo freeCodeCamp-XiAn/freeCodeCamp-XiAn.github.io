@@ -1,8 +1,6 @@
 {
-	"kanban": {
-		"openOnStartup": true,
-		"trackTime": true
-	},
-	"eslint.autoFixOnSave": false,
-	"editor.find.autoFindInSelection": false
+  "kanban": {
+      "openOnStartup": true,
+      "trackTime": true
+  }
 }
