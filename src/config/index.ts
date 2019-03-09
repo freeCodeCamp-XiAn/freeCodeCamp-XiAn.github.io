@@ -44,17 +44,14 @@ const Config = {
 	],
 	corporateSponsor: [
 		{
-			title: '主办单位',
 			colNum: 1,
 			imgs: [{ url: pncxtm, className: 'bigImg' }]
 		},
 		{
-			title: '协办单位',
 			colNum: 1,
 			imgs: [{ url: plmpas, className: 'midImg' }]
 		},
 		{
-			title: '🏅金牌赞助商',
 			colNum: 1,
 			imgs: [
 				{ url: plmpjq, className: 'litImgx1' },
@@ -62,7 +59,6 @@ const Config = {
 			]
 		},
 		{
-			title: '🥈银牌赞助商',
 			colNum: 2,
 			imgs: [
 				{ url: plmpjd, className: 'litImgx2' },
