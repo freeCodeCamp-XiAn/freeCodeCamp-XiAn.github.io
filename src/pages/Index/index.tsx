@@ -1,10 +1,11 @@
 import * as React from 'react'
 import './index.less'
+import Config from '../../config'
 import { Footer, Banner } from '@layouts/index'
 import IndexContent from '@components/IndexContent'
 import Title from '@components/Title'
 import CorporateSponsor from '@components/CorporateSponsor'
-import Bottom from '@components/Bottom'
+import Partner from '@components/Partner'
 interface IState {
 	isPhone?: boolean
 	isFinished?: boolean
@@ -35,7 +36,7 @@ export default class Index extends React.Component<any, IState> {
 				break
 			}
 		}
-		console.log(flag)
+
 		this.setState({
 			isPhone: flag,
 			isFinished: true
@@ -59,10 +60,13 @@ export default class Index extends React.Component<any, IState> {
 		return (
 			<React.Fragment>
 				<Banner />
-				<Title title={'大会精彩内容'}/>
+				<Title title={'大会精彩内容'} />
 				{this.state.isFinished && <IndexContent isPhone={this.state.isPhone} />}
 				<CorporateSponsor />
-        <Bottom />
+				<Title title={'合作伙伴'} />
+				<Partner data={Config.partner}/>
+				<Title title={'志愿者'} />
+				<Partner data={Config.volunteer}/>
 				<Footer />
 			</React.Fragment>
 		)
