@@ -72,7 +72,7 @@ const Config = {
 		{
 			name: 'partner1',
 			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
+			active: 1
 		},
 		{
 			name: 'partner1',
@@ -82,7 +82,7 @@ const Config = {
 		{
 			name: 'partner1',
 			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
+			active: 1
 		}
 	],
 
@@ -91,12 +91,7 @@ const Config = {
 		{
 			name: 'volunteer1',
 			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
-		},
-		{
-			name: 'volunteer1',
-			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
+			active: 1
 		},
 		{
 			name: 'volunteer1',
@@ -106,12 +101,17 @@ const Config = {
 		{
 			name: 'volunteer1',
 			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
+			active: 1
 		},
 		{
 			name: 'volunteer1',
 			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
-			active: 0
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
+			active: 1
 		}
 	],
 }
