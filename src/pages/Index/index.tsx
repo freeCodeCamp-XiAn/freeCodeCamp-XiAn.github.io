@@ -35,7 +35,7 @@ export default class Index extends React.Component<any, IState> {
 			'iPod'
 		]
 		let flag = false
-		if(Agents.some(v => v === userAgentInfo)) flag = true
+		if(Agents.some(v => userAgentInfo.indexOf(v) > 1)) flag = true
 
 		this.setState({
 			isPhone: flag,
