@@ -3,6 +3,8 @@ import plmpbm from '../assets/images/v2_plmpbm.png'
 import plmpjd from '../assets/images/v2_plmpjd.png'
 import plmpjq from '../assets/images/v2_plmpjq.jpg'
 import pncxtm from '../assets/images/v2_pncxtm.png'
+import twcommunity from '../assets/images/v2_tw_community.jpg'
+
 
 const Config = {
 	projectName: 'Platform',
@@ -45,11 +47,16 @@ const Config = {
 	corporateSponsor: [
 		{
 			colNum: 1,
-			imgs: [{ url: pncxtm, className: 'bigImg' }]
+			imgs: [
+				{ url: pncxtm, className: 'bigImg' }
+			]
 		},
 		{
 			colNum: 1,
-			imgs: [{ url: plmpas, className: 'midImg' }]
+			imgs: [
+				{ url: plmpas, className: 'midImg' },
+				{ url: twcommunity, className: 'midImg' }
+			]
 		},
 		{
 			colNum: 1,
