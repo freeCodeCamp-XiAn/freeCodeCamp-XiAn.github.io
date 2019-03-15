@@ -35,7 +35,9 @@ export default class Index extends React.Component<any, IState> {
 			'iPod'
 		]
 		let flag = false
-		if (Agents.some(v => userAgentInfo.indexOf(v) > -1)) { flag = true }
+		if(Agents.some(v => userAgentInfo.indexOf(v) > -1)) flag = true
+
+		console.log(111)
 		this.setState({
 			isPhone: flag,
 			isFinished: true
@@ -64,13 +66,13 @@ export default class Index extends React.Component<any, IState> {
 					<IndexContent isPhone={this.state.isPhone} />
 				)}
 				<Title title={'主办单位'} />
-				<Organization data={Config.corporateSponsor[0]} />
+				<Organization data={Config.corporateSponsor[0]}/>
 				<Title title={'协办单位'} />
-				<Organization data={Config.corporateSponsor[1]} />
+				<Organization data={Config.corporateSponsor[1]}/>
 				<Title title={'🏅金牌赞助商'} />
-				<Organization data={Config.corporateSponsor[2]} />
+				<Organization data={Config.corporateSponsor[2]}/>
 				<Title title={'🥈银牌赞助商'} />
-				<Organization data={Config.corporateSponsor[3]} />
+				<Organization data={Config.corporateSponsor[3]}/>
 				<Title title={'合作伙伴'} />
 				<Partner data={Config.partner} />
 				<Title title={'志愿者'} />
