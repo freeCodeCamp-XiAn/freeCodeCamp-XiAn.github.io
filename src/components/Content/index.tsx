@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './index.less'
 import avatar01 from '../../assets/images/avatar_0.jpg'
-import avatar02 from '../../assets/images/avatar_1.jpg'
+import avatar02 from '../../assets/images/avatar_1.png'
 import avatar03 from '../../assets/images/avatar_2.jpg'
 import avatar04 from '../../assets/images/avatar_3.jpg'
 import avatar05 from '../../assets/images/avatar_4.jpg'
