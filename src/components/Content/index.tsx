@@ -13,7 +13,8 @@ interface IProps {
 	description: string
 	isImgLeft?: boolean,
 	style?: React.CSSProperties,
-	index?: number
+	index?: number,
+	isPhone?: boolean
 }
 
 const content = (props: IProps) => {
@@ -35,11 +36,13 @@ const content = (props: IProps) => {
 			avatar = avatar05
 			break
 	}
+	const padObj = (props.isImgLeft && !props.isPhone) ? { paddingLeft: '2rem' } : { paddingRight: '2rem' }
+
 
 	return (
 		<div className='item' style={props.style}>
 			<img src={avatar} className='img' />
-			<div className='article'>
+			<div className='article' style={padObj}>
 				<div className='title'>{props.project}</div>
 				<div className='author'>{props.name}</div>
 				<div className='desc'>{props.description}</div>

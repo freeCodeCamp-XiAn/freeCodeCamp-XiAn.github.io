@@ -3,6 +3,7 @@ import plmpbm from '../assets/images/v2_plmpbm.png'
 import plmpjd from '../assets/images/v2_plmpjd.png'
 import plmpjq from '../assets/images/v2_plmpjq.jpg'
 import pncxtm from '../assets/images/v2_pncxtm.png'
+import zhangnafei from '../assets/images/nafei_zhang.jpg'
 
 const Config = {
 	projectName: 'Platform',
@@ -90,7 +91,7 @@ const Config = {
 
 		{
 			name: 'volunteer1',
-			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
+			url: zhangnafei,
 			active: 1
 		},
 		{
