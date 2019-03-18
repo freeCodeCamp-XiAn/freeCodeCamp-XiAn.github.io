@@ -21,7 +21,6 @@ export default class Partner extends React.Component<IPartner, any> {
 	getImage(parts: IImg[]) {
 		return (
 			parts.map((part: any, i: number) => {
-				console.log(part)
 				return (
 					<Image
 						key={i}
