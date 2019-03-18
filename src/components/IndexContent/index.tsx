@@ -7,9 +7,9 @@ const IndexContent = ({ isPhone }) => (
 	<div className='content'>
 		{Config.contents.map((content, index) => {
 			if (isPhone) {
-				return <Content key={Math.random()} project={content.project} name={content.name} index={index} description={content.description} style={{ flexDirection: 'column' }} />
+				return <Content key={Math.random()} isPhone={isPhone} project={content.project} name={content.name} index={index} description={content.description} style={{ flexDirection: 'column' }} />
 			} else {
-				return <Content key={Math.random()} project={content.project} name={content.name} index={index} description={content.description} style={{ flexDirection: (content.isImgLeft ? 'row' : 'row-reverse') }} isImgLeft={content.isImgLeft} />
+				return <Content key={Math.random()} isPhone={isPhone} project={content.project} name={content.name} index={index} description={content.description} style={{ flexDirection: (content.isImgLeft ? 'row' : 'row-reverse') }} isImgLeft={content.isImgLeft} />
 			}
 		})}
 	</div>
