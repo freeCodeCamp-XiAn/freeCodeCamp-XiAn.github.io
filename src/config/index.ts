@@ -8,6 +8,7 @@ import CTC from '../assets/images/C-ThoughtWorks Community.jpg'
 import DGDG from '../assets/images/D-GDG-xian.jpg'
 import WdShare from '../assets/images/WdShare.png'
 import jinshuju from '../assets/images/jinshuju.png'
+import huodongxing from '../assets/images/huodongxing.jpg'
 
 import zhangnafei from '../assets/images/nafei_zhang.jpg'
 import thl from '../assets/images/thl.jpg'
@@ -15,6 +16,12 @@ import whh from '../assets/images/whh.jpg'
 import dalao1 from '../assets/images/dalao1.jpg'
 import dalao2 from '../assets/images/dalao2.jpg'
 import dalao3 from '../assets/images/dalao3.jpg'
+import dalao4 from '../assets/images/dalao4.jpg'
+import dalao5 from '../assets/images/dalao5.jpg'
+import dalao6 from '../assets/images/dalao6.jpg'
+import dalao7 from '../assets/images/dalao7.jpg'
+import dalao8 from '../assets/images/dalao8.jpg'
+import dalao9 from '../assets/images/dalao9.png'
 
 const Config = {
 	projectName: 'Platform',
@@ -80,6 +87,10 @@ const Config = {
 				{ url: DGDG, className: 'litImgx3' },
 				{ url: WdShare, className: 'litImgx2' }
 			]
+		},
+		{
+			colNum: 1,
+			imgs: [{ url: huodongxing, className: 'bigImg' }]
 		}
 	],
 	partner: [
@@ -130,6 +141,36 @@ const Config = {
 		{
 			name: 'volunteer1',
 			url: dalao3,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao4,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao5,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao6,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao7,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao8,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao9,
 			active: 1
 		}
 	],
