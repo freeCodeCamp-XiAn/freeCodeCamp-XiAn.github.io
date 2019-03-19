@@ -12,6 +12,9 @@ import jinshuju from '../assets/images/jinshuju.png'
 import zhangnafei from '../assets/images/nafei_zhang.jpg'
 import thl from '../assets/images/thl.jpg'
 import whh from '../assets/images/whh.jpg'
+import dalao1 from '../assets/images/dalao1.jpg'
+import dalao2 from '../assets/images/dalao2.jpg'
+import dalao3 from '../assets/images/dalao3.jpg'
 
 const Config = {
 	projectName: 'Platform',
@@ -116,12 +119,17 @@ const Config = {
 		},
 		{
 			name: 'volunteer1',
-			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
+			url: dalao1,
 			active: 1
 		},
 		{
 			name: 'volunteer1',
-			url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551605167408&di=8f6d081350e8e96c78b46535157fd106&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F25%2F20160425171833_4GuNC.jpeg',
+			url: dalao2,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: dalao3,
 			active: 1
 		}
 	],
