@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './index.less'
 import Config from '../../config'
-import { Footer, Banner } from '@layouts/index'
+import { Footer,Banner } from '@layouts/index'
 import IndexContent from '@components/IndexContent'
 import Title from '@components/Title'
 import Organization from '@components/Organization'
@@ -11,7 +11,7 @@ interface IState {
 	isFinished?: boolean
 }
 
-export default class Index extends React.Component<any, IState> {
+export default class Index extends React.Component<any,IState> {
 	map: any
 	constructor(props: any) {
 		super(props)
@@ -67,14 +67,16 @@ export default class Index extends React.Component<any, IState> {
 				<Organization data={Config.corporateSponsor[0]} />
 				<Title title={'协办单位'} />
 				<Organization data={Config.corporateSponsor[1]} />
-				<Title title={'🏅金牌赞助商'} />
+				<Title title={'赞助支持'} />
 				<Organization data={Config.corporateSponsor[2]} />
-				<Title title={'🥈银牌赞助商'} />
+				<Title title={'合作社区'} />
 				<Organization data={Config.corporateSponsor[3]} />
-				<Title title={'合作伙伴'} />
-				<Partner data={Config.partner} />
+				{/* <Title title={'合作社区'} />
+				<Partner data={Config.partner} /> */}
 				<Title title={'志愿者'} />
 				<Partner data={Config.volunteer} />
+				<Title title={'活动行'} />
+				<Organization data={Config.corporateSponsor[4]} />
 				<Footer />
 			</React.Fragment>
 		)
