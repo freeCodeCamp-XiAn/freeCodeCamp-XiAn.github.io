@@ -106,7 +106,6 @@ const ShowLeader = ({ match }) => (
   <div>Leader Name: {match.params.name}</div>
 )
 const Detail = ({ match }) => {
-  console.log(match)
   return (
     <div>{`Hello User iD: ${match.params.detail}`}</div>
   )
