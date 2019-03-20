@@ -23,6 +23,7 @@ import dalao7 from '../assets/images/dalao7.jpg'
 import dalao8 from '../assets/images/dalao8.jpg'
 import dalao9 from '../assets/images/dalao9.png'
 import duxiuxiu from '../assets/images/duxiuxiu.jpg'
+import lichen from '../assets/images/lichen.jpg'
 const Config = {
 	projectName: 'Platform',
 	system: {
@@ -176,6 +177,11 @@ const Config = {
 		{
 			name: 'volunteer1',
 			url: duxiuxiu,
+			active: 1
+		},
+		{
+			name: 'volunteer1',
+			url: lichen,
 			active: 1
 		}
 	],
