@@ -1,5 +1,5 @@
 import FCC from '../assets/images/FCC.png'
-import nibachuangkekongjian from '../assets/images/nibachuangkekongjian.png'
+import xiebanhaxiwu from '../assets/images/xieban_haxiwu.jpg'
 import tulingjiaoyu from '../assets/images/tulingjiaoyu.jpg'
 import juejin from '../assets/images/juejin.png'
 import pugongying from '../assets/images/pugongying.png'
@@ -69,7 +69,7 @@ const Config = {
 		},
 		{
 			colNum: 1,
-			imgs: [{ url: nibachuangkekongjian, className: 'midImg' }]
+			imgs: [{ url: xiebanhaxiwu, className: 'midImg' }]
 		},
 		{
 			colNum: 1,
