@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="author" content="谷中仁"><meta name="description" content="FCC西安社区官网"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#000000"/><link rel="manifest" href="./manifest.json"><link rel="shortcut icon" href="./favicon.ico"><script src="./config.js"></script><script>if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(registration => {
+          console.log('ServiceWorker registration successful with scope: ',
+            registration.scope
+          )
+        })
+        .catch(err => {
+          console.log('ServiceWorker registration failed: ', err)
+        })
+    }</script><title>FCC西安社区官网</title><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="shortcut icon" href="/favicon.ico"><link href="/static/style/app.css?d4ebb27a3a32e7309e01" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="/static/js/vendors_bundle.js?d4ebb27a3a32e7309e01"></script><script type="text/javascript" src="/static/js/app_bundle.js?d4ebb27a3a32e7309e01"></script><script type="text/javascript" src="/static/js/runtime_bundle.js?d4ebb27a3a32e7309e01"></script></body></html>

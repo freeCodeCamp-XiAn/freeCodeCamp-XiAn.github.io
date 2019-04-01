@@ -1,0 +1,4 @@
+
+var ConfigExt = {
+  projectName: 'Platform'
+}
